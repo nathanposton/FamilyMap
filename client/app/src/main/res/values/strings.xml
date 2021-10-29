@@ -1,0 +1,80 @@
+<resources>
+
+<!--    Login Strings-->
+    <string name="app_name">FamilyMap</string>
+    <string name="signInButton">Sign In</string>
+    <string name="registerButton">Register</string>
+    <string name="sign_in_success">Welcome, %s %s!</string>
+    <string name="sign_in_fail">Login failed</string>
+    <string name="sign_in_unfilled">Please fill in the required(*) fields</string>
+
+    <string name="serverHost">Server Host:</string>
+    <string name="serverPort">Server Port:</string>
+    <string name="username">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+
+    <string name="promptServerHost">*Server Host:</string>
+    <string name="promptServerPort">*Server Port:</string>
+    <string name="promptUsername">*User Name:</string>
+    <string name="promptPassword">*Password:</string>
+    <string name="promptFirstName">*First Name:</string>
+    <string name="promptLastName">*Last Name:</string>
+    <string name="promptEmail">*Email:</string>
+    <string name="promptGender">*Gender:</string>
+
+    <string name="serverHostDefault">10.0.2.2</string>
+    <string name="serverPortDefault">8080</string>
+
+<!--    Map Strings-->
+    <string name="title_activity_maps">Map</string>
+    <string name="default_map_description">Select a location icon for more information</string>
+    <string name="event_description">%s: %s, %s (%d)</string>
+    <string name="event_participant">%s %s</string>
+    <string name="map_settings">Settings</string>
+    <string name="map_search">Search</string>
+
+<!--    Person Activity-->
+    <string name="person_first_name_prompt">First Name</string>
+    <string name="person_last_name_prompt">Last Name</string>
+    <string name="person_gender_prompt">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="single_string">%s</string>
+    <string name="life_events">Life Events</string>
+    <string name="family">Family</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="spouse">Spouse</string>
+    <string name="child">Child</string>
+
+
+<!--    Search Activity-->
+    <string name="search_string">Search</string>
+    <string name="empty_string"> </string>
+    <string name="item_name">%s %s</string>
+
+<!--    Settings Activity-->
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="show_life_story_lines">Show Family Story Lines</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="show_family_tree_lines">Show Family Tree Lines</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="show_spouse_lines">Show Spouse Lines</string>
+    <string name="fathers_side">Father\'s Side</string>
+    <string name="filter_father">Filter By Father\'s Side of Family</string>
+    <string name="mothers_side">Mother\'s Side</string>
+    <string name="filter_mother">Filter By Mother\'s Side of Family</string>
+    <string name="male_events">Male Events</string>
+    <string name="female_events">Female Events</string>
+    <string name="filter_gender">Filter Events Based On Gender</string>
+    <string name="logout">Logout</string>
+    <string name="logout_prompt">Return to Login Screen</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+
+
+</resources>

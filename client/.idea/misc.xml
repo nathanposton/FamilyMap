@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/activity_person.xml" value="0.30567081604426005" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/person_header.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/person_item.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/layout/search_item.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ClientFamilyMap/app/src/main/res/menu/main_menu.xml" value="0.2791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

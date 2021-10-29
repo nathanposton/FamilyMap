@@ -1,0 +1,55 @@
+drop table if exists users;
+drop table if exists persons;
+drop table if exists events;
+drop table if exists auth_tokens;
+
+
+create table users
+(
+	username varchar(255) not null primary key unique,
+	password varchar(255) not null,
+	email varchar(255) not null,
+	firstName varchar(255) not null,
+	lastName varchar(255) not null,
+    gender varchar(1) not null,
+    personID varchar(255) not null,
+	foreign key(personID) references persons(id) on update cascade on delete restrict
+);
+
+create table persons
+(
+	id varchar(255) not null primary key unique,
+    associatedUsername varchar(255) not null,
+	firstName varchar(255) not null,
+	lastName varchar(255) not null,
+    gender varchar(1) not null,
+    fatherID varchar(255),
+    motherID varchar(255),
+    spouseID varchar(255),
+	foreign key(associatedUsername) references users(username) on update cascade on delete restrict,
+	foreign key(fatherID) references persons(id) on update cascade on delete restrict,
+	foreign key(motherID) references persons(id) on update cascade on delete restrict,
+	foreign key(spouseID) references persons(id) on update cascade on delete restrict
+);
+
+create table events
+(
+	eventID varchar(255) not null primary key unique,
+    associatedUsername varchar(255) not null,
+    personID varchar(255) not null,
+    latitude float not null,
+    longitude float not null,
+	country varchar(255) not null,
+	city varchar(255) not null,
+	eventType varchar(255) not null,
+    year integer not null,
+	foreign key(associatedUsername) references users(username) on update cascade on delete restrict,
+	foreign key(personID) references persons(id) on update cascade on delete restrict
+);
+
+create table auth_tokens
+(
+	authtoken varchar(255) primary key not null unique,
+    username varchar(255) not null,
+	foreign key(username) references users(username) on update cascade on delete restrict
+);
